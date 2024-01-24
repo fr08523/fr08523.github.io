@@ -1,0 +1,82 @@
+body {
+    margin: 0; /* Remove default page margins */
+}
+
+nav {
+    /* Differentiate the navigation */
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    /* Style anchor tag in nav */
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    /* Hover state for anchor tag in nav */
+    color: #ffcc00;
+}
+
+footer {
+    /* Differentiate the footer */
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    /* Style anchor tag in footer */
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    /* Hover state for anchor tag in footer */
+    color: #ffcc00;
+}
+
+.page-section {
+    /* Background color for a section */
+    background-color: #000000;
+    padding: 20px; /* Add padding to the section */
+}
+
+/* Add Google Fonts link and apply fonts as needed */
+
+/* Set font color and size for fonts */
+
+hr {
+    /* Style for horizontal rules */
+    border: 1px solid #333;
+    margin: 10px 0;
+}
+
+/* Add styles for images and other elements as required */
+
+.card {
+    /* Style for card layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.card img {
+    /* Style for images within the card */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.three-col {
+    /* Style for three-column layout */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Add styles for other elements and pages as needed */
